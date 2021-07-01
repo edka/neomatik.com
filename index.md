@@ -3,6 +3,6 @@
 <title>Neomatik.com</title>
 </head>
 <body>
-<p align="center">Ranger Simon</p>
+<p>Ranger Simon</p>
 </body>
 </html>
