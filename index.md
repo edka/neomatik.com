@@ -21,6 +21,5 @@ body, html {
 </style>
 </head>
 <body>
-COMING SOON
 </body>
 </html>
