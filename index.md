@@ -3,7 +3,7 @@
 <title>Neomatik.com</title>
 <style>
 body {
-  background-image: url("images/NewSingle_Neomatik_FB");
+  background-image: url("images/NewSingle_Neomatik_FB.jpg");
   background-color: #cccccc;
     /* Full height */
     height: 100%;
