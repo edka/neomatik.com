@@ -3,6 +3,6 @@
 <title>Neomatik.com</title>
 </head>
 <body>
-<p>Ranger Simon</p>
+<p>New Album Is Coming Up</p>
 </body>
 </html>
