@@ -1,8 +1,14 @@
 <html>
 <head>
 <title>Neomatik.com</title>
+<style>
+body {
+  background-image: url("images/NewSingle_Neomatik_FB");
+  background-color: #cccccc;
+}
+</style>
 </head>
 <body>
-<p>New Album Is Coming Up</p>
+COMING SOON
 </body>
 </html>
