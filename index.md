@@ -5,7 +5,7 @@
 </head>
 <body>
 <div id="bg">
-  <img src="images/NewSingle_Neomatik_FB.jpg" alt="New Single by Neomatik">
+  <img src="images/RangerArtWork.png" alt="New Single by Neomatik">
 </div>
 </body>
 </html>

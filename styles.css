@@ -40,7 +40,7 @@ html {
     width: 200%;
     height: 200%;
 }
-#bg img {
+/*#bg img {
     position: absolute;
     top: 0;
     left: 0;
@@ -49,4 +49,12 @@ html {
     margin: auto;
     min-width: 50%;
     min-height: 50%;
+    */
+}
+
+id.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
