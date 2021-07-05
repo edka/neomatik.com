@@ -5,12 +5,10 @@ body {
 
 .hero-image {
     background-image: url("/images/RangerArtWork.png");
-    background-color: #cccccc;
-    height: 500px;
-    background-position: center;
+    border: 2px solid black;
+    padding: 25px;
     background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    background-size: contain, cover;
 }
 
 .hero-text {
@@ -21,3 +19,4 @@ body {
     transform: translate(-50%, -50%);
     color: white;
 }
+
