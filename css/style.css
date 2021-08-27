@@ -71,7 +71,7 @@ a:hover,
 a:active,
 a:focus {
     outline: 0;
-    text-decoration: none;
+    text-decoopation: none;
 }
 body,
 input,
@@ -347,7 +347,7 @@ blockquote {
 }
 .bg-opacity {
 /*    background: url(../img/opacity.jpg) no-repeat center / cover !important; */
-    background: url(../img/RSv2_700x1050.jpg) no-repeat center / cover !important;
+    background: url(../images/RangerArtWork.png) no-repeat center / cover !important;
 }
 .bg-shop {
     background: url(../img/banner.jpg) no-repeat center / cover !important;
