@@ -1,7 +1,9 @@
+<!DOCTYPE html>
 <html lang="en-US">
   <head>
     <title>Neomatik & Riodine Band</title>
     <meta content="IE=edge" http-equiv="x-ua-compatible">
+    <meta charset="UTF-8">
     <meta content="initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" name="viewport">
     <meta content="yes" name="apple-mobile-web-app-capable">
     <meta content="yes" name="apple-touch-fullscreen">
@@ -20,60 +22,123 @@
   <body>
     <div class="m-scene" id="main"> <!-- Main Container -->
 
-      <!-- Page Content -->
-      <div id="content" class="">
+      <!-- Sidebars -->
+      <!-- Right Sidebar -->
 
-        <!-- Main Content -->
-        <div class="animated fadein bg-opacity">
-          <div class="valign-wrapper fullscreen">
-            <!-- Page Center -->
-           <div class="valign">
-              <div class="row">
-                <div class="col s12 center-align animated fadein delay-1">
-                  <h1 class="title white-text">Available Now</h1>
-                    <iframe src="https://open.spotify.com/embed/track/7AAe57Qe2PQvviTRgBy6el" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                </div>
-                <div class="col s12 center-align p-20 animated fadeinup delay-2">
-                  <h2 id="countdown"></h2>
-                  <span class="white-text">Subscribe to our mailing list</span>
-                  <div class="input-field animated fadein delay-4">
-                  <!--  <input id="icon_prefix" type="email" class="center-align validate" placeholder="Enter your email address">
-                    <a href="index.html" class="waves-effect waves-light btn primary-color">Send</a> -->
-                      <!-- Begin Mailchimp Signup Form -->
-                      <div id="mc_embed_signup">
-                          <form action="https://neomatik.us5.list-manage.com/subscribe/post?u=76489c04c58b25b314030d646&amp;id=3272f1488b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                                  <input type="email" value="" name="EMAIL" class="center-align validate" id="mce-EMAIL" placeholder="Enter your email address" required style="color:white">
-                                  <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                                 <!--<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="waves-effect waves-light btn primary-color"> -->
-                              <a href="javascript:{}" onclick="document.getElementById('mc-embedded-subscribe-form').submit(); return false;" class="waves-effect waves-light btn primary-color">Send</a>
-                          </form>
-                      </div>
-
-                      <!--End mc_embed_signup-->
-                     </div>
-                </div>
+      <!-- Left Sidebar -->
+      <ul id="slide-out-left" class="side-nav collapsible">
+        <li>
+          <div class="sidenav-header primary-color">
+            <div class="nav-social">
+                <i class="ion-social-facebook cursor" onclick="window.open('http://facebook.com/neomatik')"></i>
+                <i class="ion-social-twitter cursor" onclick="window.open('http://twitter.com/neomatik')"></i>
+                <i class="ion-social-instagram cursor" onclick="window.open('http://instagram.com/neomatik.music')"></i>
+            </div>
+            <div class="nav-avatar">
+              <img class="circle avatar" src="img/ek_avatar.jpg" alt="">
+              <div class="avatar-body">
+                <h3>Neomatik</h3>
+                <p>Musical Project</p>
               </div>
             </div>
+          </div>
+        </li>
+        <li><a href="index.html" class="no-child"><i class="ion-android-home"></i>Home</a></li>
+     <!--   <li><a href="gallery-card.html" class="no-child"><i class="ion-android-image"></i>Gallery</a></li> -->
+        <li><a href="news.html" class="no-child"><i class="ion-social-rss"></i> News</a></li>
+     <!--   <li><a href="contact.html" class="no-child"><i class="ion-android-map"></i> Contact</a></li> -->
+      </ul>
+      <!-- End of Sidebars -->
 
-            <!-- Footer -->
-            <div class="page-bottom center-align p-b-20">
-              <a href="https://www.facebook.com/neomatik"><i class="ion-social-facebook p-10 white-text"></i></a>
-              <a href="https://twitter.com/neomatik"><i class="ion-social-twitter p-10 white-text"></i></a>
-              <a href="http://instagram.com/neomatik.music"><i class="ion-social-instagram p-10 white-text"></i></a>
-              <!-- <i class="ion-social-pinterest p-10 white-text"></i> -->
-              <!--<i class="ion-social-dribbble p-10 white-text"></i>-->
+      <!-- Page Content -->
+      <div id="content">
+
+        <!-- Toolbar -->
+        <div id="toolbar" class="halo-nav box-shad-none">
+          <div class="open-left" id="open-left" data-activates="slide-out-left">
+            <i class="ion-android-menu"></i>
+          </div>
+          <span class="title none">Band</span>
+        </div>
+        
+        <!-- Hero Header -->
+        <div class="h-banner animated fadeindown">
+          <div class="parallax bg-2">
+            <div class="banner-title">Music Project</div>
+          </div>
+         </div>
+
+        <!-- Article Content -->
+        <div class="animated fadeinup delay-1">
+          <div class="page-content">
+            <h2 class="uppercase">Ranger Simon - Егерь Саймон</h2>
+            <div class="post-author">
+              <img src="img/author.jpg" alt="" class="avatar circle">
+              <span>Ольга Клаут</span>
+            </div>
+            <p class="text-flow">Свершилось! Наконец-то музыкальный проект «Neomatik» с участием групппы «Riodine» выпустили свой новый сингл «Ranger Simon/Егерь Саймон». Это взрывная музыкальная эклектика, заряжающая энергией, врезающаяся в память и не оставляющая равнодушными. Именно так можно охарактеризовать индивидуальный стиль музыки новой группы «Riodine», дебютный альбом которой выйдет уже этой осенью. </p>
+            <p><a class="waves-effect waves-light btn black" href="news.html">Пресс Релиз</a></p>
+            <blockquote class="primary-border">"Исключительно авторское творчество, которое не оставляет равнодушными! "</blockquote>
+            <p><iframe src="https://open.spotify.com/embed/track/7AAe57Qe2PQvviTRgBy6el" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></p>
+            <!-- Slider -->         
+            <div class="swiper-container slider m-b-20">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="img/BandCover.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="img/rs_promo.jpg" alt="">
+                </div>
+              </div>
+              <!-- Add Arrows -->
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+            </div>
+            <!-- End of Slider -->
+            <p class="text-flow">Проект "Неоматик" и группа <b>"Riodine"</b> стремящеяся не просто «попасть в тренд», а поделиться своим восприятием и видением различных музыкальных направлений. Они с удовольствием и искренним драйвом играют музыку в стиле инди, рок, альтернатив и электроника.</p>
+
+            <!-- Share -->
+            <div class="share center-align m-t-30">
+              <h3 class="uppercase">Follow us</h3>
+              <i class="ion-social-facebook p-20 blue-text text-darken-4 cursor" onclick="window.open('http://facebook.com/neomatik')"></i>
+              <i class="ion-social-twitter p-20 blue-text cursor" onclick="window.open('http://twitter.com/neomatik')"></i>
+              <i class="ion-social-instagram p-20 red-text cursor" onclick="window.open('http://instagram.com/neomatik.music')"></i>
             </div>
           </div>
-        </div> <!-- End of Main Contents -->
-
-         
-      </div> <!-- End of Page Content -->
+        </div>
+        <!-- Footer -->
+        <footer class="page-footer primary-color">
+        <div class="container">
+          <div class="row">
+            <div class="col s12">
+              <p class="center-align grey-text text-lighten-4">All Rights Reserved</p>
+              <div class="center-align">
+                <i class="ion-social-facebook m-10 white-text cursor" onclick="window.open('http://facebook.com/neomatik')"></i>
+                <i class="ion-social-twitter m-10 white-text cursor" onclick="window.open('http://twitter.com/neomatik')"></i>
+                <i class="ion-social-instagram m-10 white-text cursor" onclick="window.open('http://instagram.com/neomatik.music')"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright blue darken-1">
+          <div class="container">
+          2021 Neomatik
+          <a class="grey-text text-lighten-4 right" href="#!">Privacy Policy</a>
+          </div>
+        </div>
+      </footer>
+      
+       
+    </div> <!-- End of Page Content -->
 
     </div> <!-- End of Page Container -->
     
     
     <script src="js/jquery-2.1.0.min.js"></script>
     <script src="js/jquery.swipebox.min.js"></script>   
+    <script src="js/jquery.smoothState.min.js"></script> 
     <script src="js/materialize.min.js"></script> 
     <script src="js/swiper.min.js"></script>  
     <script src="js/jquery.mixitup.min.js"></script>

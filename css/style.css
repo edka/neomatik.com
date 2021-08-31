@@ -71,7 +71,7 @@ a:hover,
 a:active,
 a:focus {
     outline: 0;
-    text-decoopation: none;
+    text-decoration: none;
 }
 body,
 input,
@@ -151,7 +151,9 @@ blockquote {
 2. Utility & Colors
 -------------------------------------------------------------------*/
 /* Colors */
-
+i.cursor {
+    cursor: pointer;
+}
 .accent-text {
     color: #FF4081 !important;
 }
@@ -165,10 +167,10 @@ blockquote {
     color: #2196F3 !important;
 }
 .primary-color {
-    background-color: #2196F3 !important;
+    background-color: #211d1e !important;
 }
 .primary-border {
-    border-color: #2196F3 !important;
+    border-color: ##211d1e !important;
 }
 .grey-blue {
     background-color: #f1f4f5;
@@ -316,7 +318,7 @@ blockquote {
     background: url(../img/1.jpg) no-repeat center / cover !important;
 }
 .bg-2 {
-    background: url(../img/2.jpg) no-repeat center / cover !important;
+    background: url(../img/head_bnr.jpg) no-repeat center / cover !important;
 }
 .bg-3 {
     background: url(../img/3.jpg) no-repeat center / cover !important;
@@ -346,8 +348,7 @@ blockquote {
     background: url(../img/blur.jpg) no-repeat center / cover !important;
 }
 .bg-opacity {
-/*    background: url(../img/opacity.jpg) no-repeat center / cover !important; */
-    background: url(../images/RangerSimon-NewRelease.jpg) no-repeat center / cover !important;
+    background: url(../img/opacity.jpg) no-repeat center / cover !important;
 }
 .bg-shop {
     background: url(../img/banner.jpg) no-repeat center / cover !important;
@@ -481,7 +482,7 @@ blockquote {
     right: 20px;
 }
 .halo-nav.h-bg {
-    background-color: #2196F3;
+    background-color: #211d1e;
 }
 .subtitle {
     position: absolute;
@@ -1336,7 +1337,6 @@ li.your-comment {
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    width: 100% !important;
 }
 .swiper-pagination-bullet {
     width: 10px;
@@ -1475,7 +1475,7 @@ li.your-comment {
     height: 100vh;
 }
 .slider-drawer .swiper-slide {
-    width: calc(100vw - 16px) !important;
+    width: calc(100% - 16px) !important;
     height: calc(100vh - 112px);
     overflow: hidden;
     margin: 64px 8px 32px;
