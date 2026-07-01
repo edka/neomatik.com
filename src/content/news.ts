@@ -10,45 +10,46 @@ export type NewsItem = {
 
 export const news: NewsItem[] = [
   {
-    slug: "signal-decay-announcement",
-    title: "Neomatik announces new EP 'Signal Decay' — out April 18",
+    slug: "mesotopos-mellow-november",
+    title: "Mesotopos launches with 'Mellow November' — the soundtrack for a movie that doesn't exist yet",
     excerpt:
-      "Four tracks recorded live to tape across a single week in Berlin. Pre-save opens across all platforms this Friday.",
-    date: "2026-03-04",
+      "Neomatik debuts a new 10-track ethno-dub project with Oleg Ignatenko, Rashid Akmanov, and Dmitry Klim. First single out June 26.",
+    date: "2026-06-26",
     category: "Release",
     body:
-      "Neomatik returns with Signal Decay — a four-track EP that spent a week being recorded live to a single tape machine in a converted power station in Kreuzberg. There are no overdubs. There are no second takes. What you hear is what happened in the room.\n\nThe lead single, 'Halflight,' arrives March 21. The full EP follows April 18 via Neomatik Recordings, with vinyl pressed in a run of 500.",
+      "Neomatik launches Mesotopos — a new 10-track project described as a soundtrack for a movie that doesn't exist yet. The debut single, 'Mellow November,' features Ed Kabatsky on synths and analog gear, Oleg Ignatenko on electrified guitar, Rashid Akmanov on mouth harp, and didgeridoo samples by Dmitry Klim. Mastered by Shai Fishman and released via Neomatik Productions / DistroKid.",
   },
   {
-    slug: "resident-advisor-interview",
-    title: "In conversation with Resident Advisor: on silence, patience, and the long take",
+    slug: "dont-lecture-me-edviq-remix",
+    title: "'Don't Lecture Me: edviq remix' EP out now on all platforms",
     excerpt:
-      "Neomatik sat down with RA to talk about the year off, the return, and why the best moment of a track is often the one just before it starts.",
-    date: "2026-02-14",
-    outlet: "Resident Advisor",
+      "A collaboration with progressive house producer Edviq — released March 13, 2026 to mark Ed Kabatsky's 36th year in the USA.",
+    date: "2026-03-13",
+    outlet: "MusicAlligator",
+    category: "Release",
+    body:
+      "The 'Don't Lecture Me: edviq remix' EP is out now via MusicAlligator on Spotify, Apple Music, Amazon Music, Deezer and Bandcamp. Composed by Ed Kabatsky with lyrics by Dmitry Strizhov, the release is a collaboration with progressive house producer Edviq and marks Ed's 36th year of living in the United States.",
+  },
+  {
+    slug: "electrosteam-maker-park-radio",
+    title: "'Electrosteam' — Neomatik's electronic music show at Maker Park Radio",
+    excerpt:
+      "An ongoing radio residency dedicated to electronic dance music, from Staten Island's Maker Park Radio.",
+    date: "2025-11-01",
+    outlet: "Maker Park Radio",
     category: "Interview",
     body:
-      "In a wide-ranging conversation, Neomatik discusses stepping away from touring for a full year, rebuilding a studio around a single Buchla 200e, and why the artist's next chapter is about doing less, not more.",
+      "Beyond releases and productions, Ed Kabatsky hosts 'Electrosteam' at Maker Park Radio — an ongoing show dedicated to electronic dance music, with episodes archived on Mixcloud and SoundCloud.",
   },
   {
-    slug: "afterlife-warsaw-2026",
-    title: "Neomatik joins Afterlife at Warsaw's Progresja — May 30",
+    slug: "riodine-practical-man",
+    title: "Riodine's 'Practical Man' — a full-length tribute recorded in Russian",
     excerpt:
-      "A closing set at one of the label's biggest showcases of the year. Tickets go on sale Friday at 10:00 CET.",
-    date: "2026-01-22",
-    category: "Tour",
+      "The Neomatik-led experimental indie-rock band's 10-track debut album, written by Ed Kabatsky and mastered by Shai Fishman.",
+    date: "2021-11-01",
+    outlet: "Riodine",
+    category: "Release",
     body:
-      "Neomatik will play the closing set at Afterlife's Warsaw showcase on May 30, joining a lineup that includes Anyma, Tale of Us, and Mind Against. Doors open 22:00. Tickets on sale Friday 10:00 CET via the venue.",
-  },
-  {
-    slug: "mixmag-feature",
-    title: "Mixmag: 'The new face of European electronic minimalism'",
-    excerpt:
-      "A four-page feature in the March print issue examines Neomatik's approach to production, restraint, and the growing scene around Neomatik Recordings.",
-    date: "2025-12-05",
-    outlet: "Mixmag",
-    category: "Press",
-    body:
-      "Mixmag's March issue puts Neomatik on the cover of its 'Ones to Watch' section, calling the producer 'a quiet architect of a scene that is finally learning to say less.'",
+      "Riodine — the experimental indie-rock band formed in New York and Pennsylvania featuring Neomatik — released its 10-track debut album 'Practical Man' exclusively in Russian as a tribute to Ed Kabatsky's heritage. All tracks written by Ed Kabatsky, mastered by Shai Fishman.",
   },
 ];
