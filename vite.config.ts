@@ -1,15 +1,39 @@
-// @lovable.dev/vite-tanstack-config already includes the following — do NOT add them manually
-// or the app will break with duplicate plugins:
-//   - tanstackStart, viteReact, tailwindcss, tsConfigPaths, nitro (build-only using cloudflare as a default target),
-//     componentTagger (dev-only), VITE_* env injection, @ path alias, React/TanStack dedupe,
-//     error logger plugins, and sandbox detection (port/host/strictPort).
-// You can pass additional config via defineConfig({ vite: { ... }, etc... }) if needed.
-import { defineConfig } from "@lovable.dev/vite-tanstack-config";
+import path from "node:path";
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
+import { tanstackRouter } from "@tanstack/router-plugin/vite";
 
+// Plain Vite SPA. Produces a static dist/ that GitHub Pages can serve as-is.
+// TanStack Router runs entirely client-side; no server functions, no SSR.
 export default defineConfig({
-  tanstackStart: {
-    // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
-    // nitro/vite builds from this
-    server: { entry: "server" },
+  plugins: [
+    tanstackRouter({
+      target: "react",
+      routesDirectory: "src/routes",
+      generatedRouteTree: "src/routeTree.gen.ts",
+      autoCodeSplitting: true,
+    }),
+    react(),
+    tailwindcss(),
+  ],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"),
+    },
+    dedupe: ["react", "react-dom", "@tanstack/react-router"],
+  },
+  server: {
+    host: true,
+    port: 8080,
+    strictPort: false,
+  },
+  preview: {
+    host: true,
+    port: 8080,
+  },
+  build: {
+    outDir: "dist",
+    sourcemap: false,
   },
 });
