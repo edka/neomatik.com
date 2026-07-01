@@ -15,7 +15,8 @@ export type Release = {
   links: {
     spotify?: string;
     apple?: string;
-    beatport?: string;
+    amazon?: string;
+    deezer?: string;
     bandcamp?: string;
     soundcloud?: string;
     youtube?: string;
@@ -24,68 +25,68 @@ export type Release = {
 
 export const releases: Release[] = [
   {
-    id: "signal-decay",
-    title: "Signal Decay",
-    type: "EP",
-    label: "Neomatik Recordings",
+    id: "mellow-november",
+    title: "Mellow November (feat. Mesotopos)",
+    type: "Single",
+    label: "Neomatik Productions",
     year: 2026,
-    date: "2026-04-18",
+    date: "2026-06-26",
     cover: cover1,
     description:
-      "Four-track EP exploring the space between analog decay and digital precision — recorded live to tape across a single sleepless week in Berlin.",
+      "Debut single from the new Mesotopos project — a 10-track ethno-dub cycle described as a soundtrack for a movie that doesn't exist yet. Features Oleg Ignatenko (electrified guitar), Rashid Akmanov (mouth harp), and didgeridoo samples by Dmitry Klim. Mastered by Shai Fishman.",
     links: {
-      spotify: "https://open.spotify.com/",
-      apple: "https://music.apple.com/",
-      beatport: "https://www.beatport.com/",
-      bandcamp: "https://bandcamp.com/",
+      youtube: "https://www.youtube.com/watch?v=B7a7ovayb0s",
+      bandcamp: "https://neomatik.bandcamp.com",
+      spotify: "https://open.spotify.com/artist/1hA5eFgIgAyLtec5l1RQox",
     },
   },
   {
-    id: "orbital",
-    title: "Orbital",
-    type: "Single",
-    label: "Afterhours Music",
-    year: 2025,
-    date: "2025-11-07",
+    id: "dont-lecture-me-edviq",
+    title: "Don't Lecture Me: edviq remix",
+    type: "EP",
+    label: "MusicAlligator",
+    year: 2026,
+    date: "2026-03-13",
     cover: cover2,
     description:
-      "A slow-burn afterlife-adjacent single built around a single detuned pad and a modular kick that refuses to sit still.",
+      "A collaborative EP with progressive house producer Edviq. Composed by Ed Kabatsky, with lyrics by Russian-American poet Dmitry Strizhov. Released to mark 36 years since Ed's arrival in the USA.",
     links: {
-      spotify: "https://open.spotify.com/",
-      apple: "https://music.apple.com/",
-      beatport: "https://www.beatport.com/",
+      youtube: "https://www.youtube.com/watch?v=NWWWRM-66mk",
+      spotify: "https://open.spotify.com/artist/1hA5eFgIgAyLtec5l1RQox",
+      apple: "https://music.apple.com/us/artist/neomatik/1543651491",
+      bandcamp: "https://neomatik.bandcamp.com",
     },
   },
   {
-    id: "null-state",
-    title: "Null State",
-    type: "Album",
-    label: "Neomatik Recordings",
-    year: 2025,
-    date: "2025-05-23",
+    id: "ranger-simon",
+    title: "Ranger Simon — Егерь Саймон (feat. Riodine)",
+    type: "Single",
+    label: "Neomatik Productions",
+    year: 2021,
+    date: "2021-01-01",
     cover: cover3,
     description:
-      "Debut long-form work. Nine tracks charting the arc of a night — from the last car home to first light over concrete.",
+      "A Russian-language indie-rock crossover between Neomatik and the Riodine band. Lyrics by Dmitry Strizhov — praised for its clarity, mature production, and commercial potential in North America.",
     links: {
-      spotify: "https://open.spotify.com/",
-      apple: "https://music.apple.com/",
-      bandcamp: "https://bandcamp.com/",
-      soundcloud: "https://soundcloud.com/",
+      spotify: "https://open.spotify.com/artist/1hA5eFgIgAyLtec5l1RQox",
+      apple: "https://music.apple.com/us/artist/neomatik/1543651491",
+      bandcamp: "https://neomatik.bandcamp.com",
     },
   },
   {
-    id: "phantom-limb",
-    title: "Phantom Limb",
-    type: "Remix",
-    label: "Correspondant",
-    year: 2024,
-    date: "2024-09-12",
+    id: "where-two-deserts-meet",
+    title: "Where Two Deserts Meet",
+    type: "EP",
+    label: "Neomatik Productions",
+    year: 2020,
+    date: "2020-01-01",
     cover: cover4,
     description:
-      "A hypnotic reinterpretation commissioned for Correspondant's tenth-anniversary compilation. Long, patient, and unafraid of silence.",
+      "Neomatik's solo EP — the same title later served as Riodine's debut single. A meeting point between electronic textures and songwriting instincts refined over three decades.",
     links: {
-      spotify: "https://open.spotify.com/",
-      beatport: "https://www.beatport.com/",
+      spotify: "https://open.spotify.com/artist/1hA5eFgIgAyLtec5l1RQox",
+      apple: "https://music.apple.com/us/artist/neomatik/1543651491",
+      bandcamp: "https://neomatik.bandcamp.com",
     },
   },
 ];

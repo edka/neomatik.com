@@ -38,7 +38,7 @@ export function SiteFooter() {
               <li><a href={site.socials.spotify} className="hover:text-violet" target="_blank" rel="noreferrer">Spotify</a></li>
               <li><a href={site.socials.soundcloud} className="hover:text-violet" target="_blank" rel="noreferrer">SoundCloud</a></li>
               <li><a href={site.socials.bandcamp} className="hover:text-violet" target="_blank" rel="noreferrer">Bandcamp</a></li>
-              <li><a href={site.socials.youtube} className="hover:text-violet" target="_blank" rel="noreferrer">YouTube</a></li>
+              <li><a href={site.socials.facebook} className="hover:text-violet" target="_blank" rel="noreferrer">Facebook</a></li>
             </ul>
           </div>
         </div>

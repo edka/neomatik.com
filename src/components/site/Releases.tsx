@@ -37,14 +37,20 @@ export function ReleaseCard({ release, priority = false }: { release: Release; p
         {release.links.apple && (
           <a href={release.links.apple} target="_blank" rel="noreferrer" className="hover:text-violet">Apple Music</a>
         )}
-        {release.links.beatport && (
-          <a href={release.links.beatport} target="_blank" rel="noreferrer" className="hover:text-violet">Beatport</a>
+        {release.links.amazon && (
+          <a href={release.links.amazon} target="_blank" rel="noreferrer" className="hover:text-violet">Amazon Music</a>
+        )}
+        {release.links.deezer && (
+          <a href={release.links.deezer} target="_blank" rel="noreferrer" className="hover:text-violet">Deezer</a>
         )}
         {release.links.bandcamp && (
           <a href={release.links.bandcamp} target="_blank" rel="noreferrer" className="hover:text-violet">Bandcamp</a>
         )}
         {release.links.soundcloud && (
           <a href={release.links.soundcloud} target="_blank" rel="noreferrer" className="hover:text-violet">SoundCloud</a>
+        )}
+        {release.links.youtube && (
+          <a href={release.links.youtube} target="_blank" rel="noreferrer" className="hover:text-violet">YouTube</a>
         )}
       </div>
     </article>

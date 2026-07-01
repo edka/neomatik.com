@@ -25,7 +25,7 @@ export function Hero() {
       <div className="relative z-10 container-x flex min-h-[100svh] flex-col justify-end pb-16 pt-32 md:pb-24 md:pt-40">
         <div className="mb-6 flex items-center gap-3 text-xs uppercase tracking-[0.3em] text-muted-foreground">
           <span className="inline-block h-px w-8 bg-violet" />
-          Electronic Music &nbsp;/&nbsp; Est. 2020
+          Cinematic Electronica &nbsp;/&nbsp; New York &nbsp;/&nbsp; Since the early 1990s
         </div>
 
         <h1 className="font-display text-[clamp(3.5rem,12vw,10rem)] font-semibold leading-[0.9] tracking-[-0.04em] text-foreground">
@@ -33,8 +33,9 @@ export function Hero() {
         </h1>
 
         <p className="mt-8 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-          A cinematic body of work spanning releases, live performances, and creative
-          collaborations — patient, textural, and built for the last hours before dawn.
+          The music project of New York producer Ed Kabatsky — weaving cinematic
+          electronica with indie and art-rock tones, balancing vocal and instrumental
+          tracks that merge emotion and design.
         </p>
 
         <div className="mt-10 flex flex-wrap gap-3">

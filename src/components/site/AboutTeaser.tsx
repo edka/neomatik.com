@@ -21,18 +21,20 @@ export function AboutTeaser() {
         <div className="md:col-span-7 md:pl-6">
           <div className="text-xs uppercase tracking-[0.3em] text-violet">About</div>
           <h2 className="mt-4 font-display text-4xl leading-[1.05] tracking-tight md:text-6xl">
-            Music built to sit inside the moment, not chase it.
+            25+ years of electronic music, songwriting, and sound design.
           </h2>
           <div className="mt-8 space-y-6 text-base leading-relaxed text-muted-foreground md:text-lg">
             <p>
-              Neomatik is the recording and performance project of a Berlin-based producer
-              working at the edges of melodic techno, ambient, and modern classical. The
-              output is deliberately narrow — a small number of releases, each built with
-              intent — released through Neomatik Recordings and a handful of trusted labels.
+              Neomatik is the music project of Ed Kabatsky — a Moscow-born, New
+              York-based producer, songwriter, keyboardist, and guitarist. Since the
+              early 1990s he has moved between experimental electronica, indie, folk,
+              and art-rock, closing a full creative circle from analog synths and
+              samplers to acoustic instruments and vocals.
             </p>
             <p>
-              Live sets are hardware-first: modular synthesis, hybrid arrangements, and
-              extended, patient transitions that trust the audience to follow.
+              Beyond Neomatik, Ed is the creative force behind Riodine, Mesotopos,
+              Likho, and Neomatik &amp; Wojo, and hosts the Electrosteam radio show at
+              Maker Park Radio.
             </p>
           </div>
 
