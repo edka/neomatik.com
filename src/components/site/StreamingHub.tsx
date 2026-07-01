@@ -3,8 +3,8 @@ import { site } from "@/content/site";
 const platforms = [
   { key: "spotify", label: "Spotify", href: site.streaming.spotify },
   { key: "apple", label: "Apple Music", href: site.streaming.apple },
-  { key: "tidal", label: "Tidal", href: site.streaming.tidal },
-  { key: "beatport", label: "Beatport", href: site.streaming.beatport },
+  { key: "amazon", label: "Amazon Music", href: site.streaming.amazon },
+  { key: "deezer", label: "Deezer", href: site.streaming.deezer },
   { key: "bandcamp", label: "Bandcamp", href: site.streaming.bandcamp },
   { key: "soundcloud", label: "SoundCloud", href: site.streaming.soundcloud },
 ];
