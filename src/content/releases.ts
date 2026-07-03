@@ -81,7 +81,7 @@ export const releases: Release[] = [
     label: "Neomatik Productions",
     year: 2021,
     date: "2021-01-01",
-    cover: rangerSimonCover,
+    cover: rangerSimonCover.url,
     description:
       "A Russian-language indie-rock crossover between Neomatik and the Riodine band. Lyrics by Dmitry Strizhov — praised for its clarity, mature production, and commercial potential in North America.",
     links: {
