@@ -80,7 +80,7 @@ export const releases: Release[] = [
     title: "Practical Man (Riodine)",
     type: "Album",
     label: "Neomatik Productions",
-    year: 2024,
+    year: 2021,
     date: "2024-01-01",
     cover: practicalManCover.url,
     description:
