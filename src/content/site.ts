@@ -10,7 +10,7 @@ export const site = {
     aliases: ["Neomatik", "Ed Ka", "EDKA"],
     based: "New York, NY",
     origin: "Moscow, Russia",
-    activeSince: "Early 1990s",
+    
   },
   email: {
     booking: "booking@neomatik.com",
