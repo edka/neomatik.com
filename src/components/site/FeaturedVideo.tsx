@@ -27,7 +27,7 @@ export function FeaturedVideo() {
         </div>
 
         <p className="mt-6 max-w-xl text-sm text-muted-foreground">
-          Live at Fabric, London — a full 90-minute set. Filmed by Studio Halbmond.
+          “Mellow November” is out now
         </p>
       </div>
     </section>
