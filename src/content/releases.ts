@@ -1,3 +1,4 @@
+import pi38Cover from "@/assets/pi38.png.asset.json";
 import mellowNovemberCover from "@/assets/mellow-november.jpg.asset.json";
 import dontLectureCover from "@/assets/dont-lecture-me.jpg.asset.json";
 import practicalManCover from "@/assets/riodine-practical-man.png.asset.json";
