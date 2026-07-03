@@ -29,7 +29,7 @@ export const releases: Release[] = [
   {
     id: "pi38-mesotopos",
     title: "π38 (Mesotopos)",
-    type: "Album",
+    type: "Single",
     label: "Neomatik Productions",
     year: 2026,
     date: "2026-07-17",
