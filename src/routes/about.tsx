@@ -39,11 +39,10 @@ function AboutPage() {
             <div className="mt-8 space-y-6 text-base leading-relaxed text-muted-foreground md:text-lg">
               <p>
                 Ed Kabatsky is a New York-based songwriter, music producer, keyboardist,
-                and guitarist born in Moscow, Russia. Since the early 1990s he has been
-                producing experimental electronic music and performing at raves,
-                gatherings, and festivals — first drawn in by New York's emerging rave
-                culture and its palette of analog synths, drum machines, sequencers,
-                samplers, and turntables.
+                and guitarist born in Moscow, Russia. He has been producing experimental
+                electronic music and performing at raves, gatherings, and festivals —
+                first drawn in by New York's emerging rave culture and its palette of
+                analog synths, drum machines, sequencers, samplers, and turntables.
               </p>
               <p>
                 Over 25+ years, Ed has completed a full circle from experimental to
