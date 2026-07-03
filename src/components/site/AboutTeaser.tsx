@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import portrait from "@/assets/ed-studio-work.jpg.asset.json";
+import portrait from "@/assets/ed-studio-work.jpg";
 
 export function AboutTeaser() {
   return (
@@ -8,7 +8,7 @@ export function AboutTeaser() {
         <div className="md:col-span-5">
           <div className="relative aspect-[4/5] overflow-hidden rounded-sm">
             <img
-              src={portrait.url}
+              src={portrait}
               alt="Ed Kabatsky at work in the studio"
               loading="lazy"
               width={1280}

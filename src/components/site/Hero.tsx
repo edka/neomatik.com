@@ -1,11 +1,11 @@
 import { Link } from "@tanstack/react-router";
-import heroPortrait from "@/assets/hero-portrait.jpg.asset.json";
+import heroPortrait from "@/assets/hero-portrait.jpg";
 
 export function Hero() {
   return (
     <section className="relative min-h-[100svh] w-full overflow-hidden grain">
       <img
-        src={heroPortrait.url}
+        src={heroPortrait}
         alt="Ed Kabatsky (Neomatik)"
         width={1024}
         height={1024}
