@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import portrait from "@/assets/artist-portrait.jpg";
+import portrait from "@/assets/ed-studio-work.jpg.asset.json";
 
 export function AboutTeaser() {
   return (
