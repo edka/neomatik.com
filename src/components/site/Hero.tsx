@@ -18,7 +18,7 @@ export function Hero() {
         className="absolute inset-0"
         style={{
           background:
-            "radial-gradient(70% 60% at 50% 40%, transparent, rgba(10,10,12,0.85) 75%), linear-gradient(180deg, rgba(10,10,12,0.4) 0%, rgba(10,10,12,0.95) 90%)",
+            "radial-gradient(70% 60% at 50% 40%, transparent, oklch(0.42 0.07 275 / 0.75) 75%), linear-gradient(180deg, oklch(0.5 0.09 55 / 0.25) 0%, oklch(0.42 0.07 275 / 0.9) 90%)",
         }}
       />
 
