@@ -26,10 +26,10 @@ export function AboutTeaser() {
           <div className="mt-8 space-y-6 text-base leading-relaxed text-muted-foreground md:text-lg">
             <p>
               Neomatik is the music project of Ed Kabatsky — a Moscow-born, New
-              York-based producer, songwriter, keyboardist, and guitarist. Since the
-              early 1990s he has moved between experimental electronica, indie, folk,
-              and art-rock, closing a full creative circle from analog synths and
-              samplers to acoustic instruments and vocals.
+              York-based producer, songwriter, keyboardist, and guitarist. He has
+              moved between experimental electronica, indie, folk, and art-rock,
+              closing a full creative circle from analog synths and samplers to
+              acoustic instruments and vocals.
             </p>
             <p>
               Beyond Neomatik, Ed is the creative force behind Riodine, Mesotopos,

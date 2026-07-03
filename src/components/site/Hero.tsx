@@ -25,7 +25,7 @@ export function Hero() {
       <div className="relative z-10 container-x flex min-h-[100svh] flex-col justify-end pb-16 pt-32 md:pb-24 md:pt-40">
         <div className="mb-6 flex items-center gap-3 text-xs uppercase tracking-[0.3em] text-muted-foreground">
           <span className="inline-block h-px w-8 bg-violet" />
-          Cinematic Electronica &nbsp;/&nbsp; New York &nbsp;/&nbsp; Since the early 1990s
+          Cinematic Electronica &nbsp;/&nbsp; New York
         </div>
 
         <h1
