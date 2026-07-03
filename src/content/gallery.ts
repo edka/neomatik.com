@@ -14,6 +14,13 @@ export type GalleryImage = {
 
 export const gallery: GalleryImage[] = [
   {
+    src: electrosteam.url,
+    alt: "Electrosteam radio show logo — 'till the last beat, hosted by edka and edviq",
+    caption: "Electrosteam — Maker Park Radio",
+    width: 1024,
+    height: 1024,
+  },
+  {
     src: g1,
     alt: "Neomatik performing live behind decks with hands raised, silhouetted against violet stage lights",
     caption: "Live at Fabric — London, 2025",
