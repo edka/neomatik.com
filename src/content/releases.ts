@@ -3,6 +3,7 @@ import mellowNovemberCover from "@/assets/mellow-november.jpg.asset.json";
 import dontLectureCover from "@/assets/dont-lecture-me.jpg.asset.json";
 import practicalManCover from "@/assets/riodine-practical-man.png.asset.json";
 import rangerSimonCover from "@/assets/ranger-simon.png.asset.json";
+import judgeCover from "@/assets/judge.jpg.asset.json";
 import whereTwoDesertsCover from "@/assets/where-two-deserts-meet.png.asset.json";
 
 export type Release = {
@@ -104,6 +105,22 @@ export const releases: Release[] = [
       spotify: "https://open.spotify.com/artist/1hA5eFgIgAyLtec5l1RQox",
       apple: "https://music.apple.com/us/artist/neomatik/1543651491",
       bandcamp: "https://neomatik.bandcamp.com",
+    },
+  },
+  {
+    id: "riodine-judge",
+    title: "Judge (Riodine feat. Neomatik)",
+    type: "Single",
+    label: "Neomatik Productions",
+    year: 2021,
+    date: "2021-10-28",
+    cover: judgeCover.url,
+    description:
+      "A Riodine single featuring Neomatik — a nod to traditional hip-hop blended with indie-rock. Justin Snyder and Ed Kabatsky on vocals, Nicholas Kabatsky (keys), Alek Sleczkowski (guitar), Joseph Tidnal (drums), with Andrea Perry (bass) and Rashid Akmanov (mouth harp, back vocal). Lyrics by Sara Kabatsky. Music, recording and production by Ed Kabatsky. Mastered by Shai Fishman.",
+    links: {
+      bandcamp: "https://neomatik.bandcamp.com/track/judge",
+      spotify: "https://open.spotify.com/artist/1hA5eFgIgAyLtec5l1RQox",
+      apple: "https://music.apple.com/us/artist/neomatik/1543651491",
     },
   },
   {
