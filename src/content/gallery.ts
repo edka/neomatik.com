@@ -2,6 +2,7 @@ import g1 from "@/assets/gallery-1.jpg";
 import g2 from "@/assets/gallery-2.jpg";
 import g3 from "@/assets/gallery-3.jpg";
 import portrait from "@/assets/artist-portrait.jpg";
+import electrosteam from "@/assets/electrosteam-logo.png.asset.json";
 
 export type GalleryImage = {
   src: string;
