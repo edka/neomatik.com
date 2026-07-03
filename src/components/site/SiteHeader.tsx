@@ -30,7 +30,8 @@ export function SiteHeader() {
       <div className="container-x flex h-16 items-center justify-between md:h-20">
         <Link
           to="/"
-          className="font-display text-lg font-semibold tracking-[0.18em] text-foreground uppercase"
+          className="text-xl font-normal tracking-[0.22em] text-foreground uppercase"
+          style={{ fontFamily: "var(--font-wordmark)" }}
           onClick={() => setOpen(false)}
         >
           Neomatik
