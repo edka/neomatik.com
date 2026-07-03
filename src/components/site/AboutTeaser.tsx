@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import portrait from "@/assets/artist-portrait.jpg";
+import portrait from "@/assets/ed-studio-work.jpg.asset.json";
 
 export function AboutTeaser() {
   return (
@@ -8,8 +8,8 @@ export function AboutTeaser() {
         <div className="md:col-span-5">
           <div className="relative aspect-[4/5] overflow-hidden rounded-sm">
             <img
-              src={portrait}
-              alt="Portrait of Neomatik lit by a single violet rim light"
+              src={portrait.url}
+              alt="Ed Kabatsky at work in the studio"
               loading="lazy"
               width={1280}
               height={1600}
