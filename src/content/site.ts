@@ -2,7 +2,7 @@ export const site = {
   name: "Neomatik",
   tagline: "Cinematic electronica, indie & art-rock from New York",
   description:
-    "Neomatik is the music project of New York producer Ed Kabatsky — weaving cinematic electronica with indie and art-rock tones, balancing vocal and instrumental tracks that merge emotion and design.",
+    "Neomatik is the music project of New York producer Ed Kabatsky — cinematic electronica woven with indie and art-rock.",
   url: "https://neomatik.com",
   ogImage: "/og-cover.jpg",
   artist: {

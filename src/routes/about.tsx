@@ -12,7 +12,7 @@ function AboutPage() {
     <>
       <Seo
         title="About"
-        description="Neomatik is the music project of New York producer Ed Kabatsky — 25+ years of cinematic electronica, indie, folk, and art-rock spanning multiple projects and collaborations."
+        description="Ed Kabatsky (Neomatik) — 25+ years of cinematic electronica, indie, folk, and art-rock across projects and collaborations from New York."
         path="/about"
       />
       <section className="pt-32 md:pt-44 pb-16 spotlight">
