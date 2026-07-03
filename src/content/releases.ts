@@ -1,7 +1,7 @@
 import mellowNovemberCover from "@/assets/mellow-november.jpg.asset.json";
 import dontLectureCover from "@/assets/dont-lecture-me.jpg.asset.json";
 import practicalManCover from "@/assets/riodine-practical-man.png.asset.json";
-import rangerSimonCover from "@/assets/release-3.jpg";
+import rangerSimonCover from "@/assets/ranger-simon.png.asset.json";
 import whereTwoDesertsCover from "@/assets/where-two-deserts-meet.png.asset.json";
 
 export type Release = {
