@@ -10,6 +10,12 @@ export function Hero() {
         width={1024}
         height={1024}
         className="absolute inset-0 h-full w-full object-cover opacity-80"
+        style={{
+          maskImage:
+            "radial-gradient(ellipse 70% 75% at 50% 45%, black 40%, transparent 100%)",
+          WebkitMaskImage:
+            "radial-gradient(ellipse 70% 75% at 50% 45%, black 40%, transparent 100%)",
+        }}
       />
       {/* dark vignette + violet wash */}
       <div
