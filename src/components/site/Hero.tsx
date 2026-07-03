@@ -31,7 +31,7 @@ export function Hero() {
           className="text-[clamp(3.5rem,12vw,10rem)] font-normal leading-[0.9] tracking-[0.08em] text-foreground"
           style={{ fontFamily: "var(--font-wordmark)" }}
         >
-          NEOMATIK
+          NEOMATIK<span className="sr-only"> — Cinematic Electronica & Sound Design</span>
         </h1>
 
         <p className="mt-8 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
