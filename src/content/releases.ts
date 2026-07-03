@@ -27,6 +27,21 @@ export type Release = {
 
 export const releases: Release[] = [
   {
+    id: "pi38-mesotopos",
+    title: "π38 (Mesotopos)",
+    type: "Album",
+    label: "Neomatik Productions",
+    year: 2026,
+    date: "2026-07-17",
+    cover: pi38Cover.url,
+    description:
+      "Upcoming release — July 17, 2026. Neomatik debuts a new 10-track ethno-dub project as Mesotopos, with Oleg Ignatenko (electrified guitar) and Rashid Akmanov (mouth harp). A continuation of the cycle opened by Mellow November.",
+    links: {
+      bandcamp: "https://neomatik.bandcamp.com",
+      spotify: "https://open.spotify.com/artist/1hA5eFgIgAyLtec5l1RQox",
+    },
+  },
+  {
     id: "mellow-november",
     title: "Mellow November (feat. Mesotopos)",
     type: "Single",
