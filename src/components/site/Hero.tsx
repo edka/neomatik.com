@@ -1,16 +1,15 @@
 import { Link } from "@tanstack/react-router";
-import heroBg from "@/assets/hero-bg.jpg";
+import heroPortrait from "@/assets/hero-portrait.jpg.asset.json";
 
 export function Hero() {
   return (
     <section className="relative min-h-[100svh] w-full overflow-hidden grain">
       <img
-        src={heroBg}
-        alt=""
-        aria-hidden
-        width={1920}
-        height={1280}
-        className="absolute inset-0 h-full w-full object-cover opacity-70"
+        src={heroPortrait.url}
+        alt="Ed Kabatsky (Neomatik)"
+        width={1024}
+        height={1024}
+        className="absolute inset-0 h-full w-full object-cover opacity-80"
       />
       {/* dark vignette + violet wash */}
       <div
