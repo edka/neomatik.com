@@ -28,7 +28,10 @@ export function Hero() {
           Cinematic Electronica &nbsp;/&nbsp; New York &nbsp;/&nbsp; Since the early 1990s
         </div>
 
-        <h1 className="font-display text-[clamp(3.5rem,12vw,10rem)] font-semibold leading-[0.9] tracking-[-0.04em] text-foreground">
+        <h1
+          className="text-[clamp(3.5rem,12vw,10rem)] font-normal leading-[0.9] tracking-[0.08em] text-foreground"
+          style={{ fontFamily: "var(--font-wordmark)" }}
+        >
           NEOMATIK
         </h1>
 
