@@ -1,0 +1,12 @@
+# Neomatik
+
+> Neomatik is the music project of New York producer Ed Kabatsky — cinematic electronica woven with indie and art-rock, spanning 25+ years across multiple projects and collaborations.
+
+## Pages
+
+- [Home](/): Overview of Neomatik — latest releases, featured video, and streaming links.
+- [Music](/music): Full discography of releases across Neomatik, Riodine, Mesotopos, Likho, and collaborations.
+- [About](/about): Biography of Ed Kabatsky (Neomatik) — Moscow-born, New York-based producer, songwriter, keyboardist, guitarist.
+- [News](/news): Release announcements, press, interviews, and radio appearances.
+- [Press Kit](/press-kit): Bio, press quotes, and assets for journalists and promoters.
+- [Contact](/contact): Booking, press, and management inquiries.
