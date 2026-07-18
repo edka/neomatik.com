@@ -71,12 +71,12 @@ export const releases: Release[] = [
     id: "dont-lecture-me-edviq",
     title: "Don't Lecture Me: edviq remix",
     type: "EP",
-    label: "MusicAlligator",
+    label: "Neomatik Productions",
     year: 2026,
     date: "2026-03-13",
     cover: dontLectureCover,
     description:
-      "A collaborative EP with progressive house producer Edviq. Composed by Ed Kabatsky, with lyrics by Russian-American poet Dmitry Strizhov. Released to mark 36 years since Ed's arrival in the USA.",
+      "A collaborative EP with progressive house producer Edviq. Composed by Ed Kabatsky, with lyrics by Russian-American poet Dmitry Strizhov.",
     links: {
       official: "/news/dont-lecture-me-edviq-remix",
       bandcamp: "https://neomatik.bandcamp.com/album/dont-lecture-me-edviq-remix",
