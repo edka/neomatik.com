@@ -31,11 +31,19 @@ export function ReleaseCard({ release, priority = false }: { release: Release; p
       </div>
 
       <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted-foreground">
+        {release.links.official && (
+          <Link to={release.links.official} className="hover:text-violet">
+            Official
+          </Link>
+        )}
         {release.links.spotify && (
           <a href={release.links.spotify} target="_blank" rel="noreferrer" className="hover:text-violet">Spotify</a>
         )}
         {release.links.apple && (
           <a href={release.links.apple} target="_blank" rel="noreferrer" className="hover:text-violet">Apple Music</a>
+        )}
+        {release.links.itunes && (
+          <a href={release.links.itunes} target="_blank" rel="noreferrer" className="hover:text-violet">iTunes</a>
         )}
         {release.links.amazon && (
           <a href={release.links.amazon} target="_blank" rel="noreferrer" className="hover:text-violet">Amazon Music</a>
@@ -51,6 +59,14 @@ export function ReleaseCard({ release, priority = false }: { release: Release; p
         )}
         {release.links.youtube && (
           <a href={release.links.youtube} target="_blank" rel="noreferrer" className="hover:text-violet">YouTube</a>
+        )}
+        {release.links.youtubeMusic && (
+          <a href={release.links.youtubeMusic} target="_blank" rel="noreferrer" className="hover:text-violet">YouTube Music</a>
+        )}
+        {release.links.more && (
+          <a href={release.links.more.url} target="_blank" rel="noreferrer" className="hover:text-violet">
+            {release.links.more.label}
+          </a>
         )}
       </div>
     </article>

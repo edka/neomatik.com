@@ -16,13 +16,17 @@ export type Release = {
   cover: string;
   description: string;
   links: {
+    official?: string;
     spotify?: string;
     apple?: string;
+    itunes?: string;
     amazon?: string;
     deezer?: string;
     bandcamp?: string;
     soundcloud?: string;
     youtube?: string;
+    youtubeMusic?: string;
+    more?: { label: string; url: string };
   };
 };
 
@@ -38,8 +42,12 @@ export const releases: Release[] = [
     description:
       "Upcoming release — July 17, 2026. Neomatik debuts a new 10-track ethno-dub project as Mesotopos, with Oleg Ignatenko (electrified guitar) and Rashid Akmanov (mouth harp). A continuation of the cycle opened by Mellow November.",
     links: {
-      bandcamp: "https://neomatik.bandcamp.com",
-      spotify: "https://open.spotify.com/artist/1hA5eFgIgAyLtec5l1RQox",
+      official: "/news/pi38-mesotopos",
+      youtubeMusic: "https://music.youtube.com/watch?v=Ae9yiWty0iA",
+      apple: "https://music.apple.com/us/album/p38-feat-mesotopos-single/6776624214",
+      itunes: "https://music.apple.com/us/album/p38-feat-mesotopos-single/6776624214",
+      spotify: "https://open.spotify.com/album/6ow3vm3BMyWRCPSc8naOA0",
+      bandcamp: "https://neomatik.bandcamp.com/album/p38",
     },
   },
   {
@@ -53,8 +61,9 @@ export const releases: Release[] = [
     description:
       "Debut single from the new Mesotopos project — a 10-track ethno-dub cycle described as a soundtrack for a movie that doesn't exist yet. Features Oleg Ignatenko (electrified guitar), Rashid Akmanov (mouth harp), and didgeridoo samples by Dmitry Klim. Mastered by Shai Fishman.",
     links: {
+      official: "/news/mesotopos-mellow-november",
+      bandcamp: "https://neomatik.bandcamp.com/track/mellow-november-feat-mesotopos",
       youtube: "https://www.youtube.com/watch?v=B7a7ovayb0s",
-      bandcamp: "https://neomatik.bandcamp.com",
       spotify: "https://open.spotify.com/artist/1hA5eFgIgAyLtec5l1RQox",
     },
   },
@@ -69,10 +78,11 @@ export const releases: Release[] = [
     description:
       "A collaborative EP with progressive house producer Edviq. Composed by Ed Kabatsky, with lyrics by Russian-American poet Dmitry Strizhov. Released to mark 36 years since Ed's arrival in the USA.",
     links: {
+      official: "/news/dont-lecture-me-edviq-remix",
+      bandcamp: "https://neomatik.bandcamp.com/album/dont-lecture-me-edviq-remix",
       youtube: "https://www.youtube.com/watch?v=NWWWRM-66mk",
       spotify: "https://open.spotify.com/artist/1hA5eFgIgAyLtec5l1RQox",
       apple: "https://music.apple.com/us/artist/neomatik/1543651491",
-      bandcamp: "https://neomatik.bandcamp.com",
     },
   },
   {
@@ -86,6 +96,7 @@ export const releases: Release[] = [
     description:
       "Riodine's album Practical Man — an experimental indie/art-rock cycle produced with Ed Kabatsky. Layered textures, poetic Russian-language lyrics, and a hand-collaged visual identity.",
     links: {
+      official: "/news/riodine-practical-man",
       spotify: "https://open.spotify.com/artist/1hA5eFgIgAyLtec5l1RQox",
       apple: "https://music.apple.com/us/artist/neomatik/1543651491",
       bandcamp: "https://neomatik.bandcamp.com",
@@ -102,13 +113,11 @@ export const releases: Release[] = [
     description:
       "A Russian-language indie-rock crossover between Neomatik and the Riodine band. Lyrics by Dmitry Strizhov — praised for its clarity, mature production, and commercial potential in North America.",
     links: {
-      spotify: "https://open.spotify.com/artist/1hA5eFgIgAyLtec5l1RQox",
-      apple: "https://music.apple.com/us/artist/neomatik/1543651491",
-      bandcamp: "https://neomatik.bandcamp.com",
+      official: "/news/ranger-simon",
+      bandcamp: "https://neomatik.bandcamp.com/track/ranger-simon-feat-riodine",
+      spotify: "https://open.spotify.com/track/7AAe57Qe2PQvviTRgBy6el",
+      more: { label: "Listen", url: "https://band.link/DHyLH" },
     },
-  },
-  {
-    id: "riodine-judge",
     title: "Judge (Riodine feat. Neomatik)",
     type: "Single",
     label: "Neomatik Productions",
@@ -118,9 +127,13 @@ export const releases: Release[] = [
     description:
       "A Riodine single featuring Neomatik — a nod to traditional hip-hop blended with indie-rock. Justin Snyder and Ed Kabatsky on vocals, Nicholas Kabatsky (keys), Alek Sleczkowski (guitar), Joseph Tidnal (drums), with Andrea Perry (bass) and Rashid Akmanov (mouth harp, back vocal). Lyrics by Sara Kabatsky. Music, recording and production by Ed Kabatsky. Mastered by Shai Fishman.",
     links: {
+      official: "/news/riodine-judge",
       bandcamp: "https://neomatik.bandcamp.com/track/judge",
-      spotify: "https://open.spotify.com/artist/1hA5eFgIgAyLtec5l1RQox",
-      apple: "https://music.apple.com/us/artist/neomatik/1543651491",
+      youtube: "https://www.youtube.com/watch?v=N-ELZy-RL8E",
+      more: {
+        label: "DistroKid",
+        url: "https://distrokid.com/hyperfollow/riodine/judge-feat-neomatik",
+      },
     },
   },
   {
@@ -134,9 +147,10 @@ export const releases: Release[] = [
     description:
       "Neomatik's solo EP — the same title later served as Riodine's debut single. A meeting point between electronic textures and songwriting instincts refined over three decades.",
     links: {
+      official: "/news/where-two-deserts-meet",
+      bandcamp: "https://neomatik.bandcamp.com/album/where-two-deserts-meet",
       spotify: "https://open.spotify.com/artist/1hA5eFgIgAyLtec5l1RQox",
       apple: "https://music.apple.com/us/artist/neomatik/1543651491",
-      bandcamp: "https://neomatik.bandcamp.com",
     },
   },
 ];
