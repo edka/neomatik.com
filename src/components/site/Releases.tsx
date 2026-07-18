@@ -18,6 +18,13 @@ export function ReleaseCard({ release, priority = false }: { release: Release; p
           <span className="text-xs uppercase tracking-[0.25em] text-white/80">{release.type}</span>
           <span className="text-xs text-white/80">{release.year}</span>
         </div>
+        {release.links.official && (
+          <Link
+            to={release.links.official}
+            aria-label={`View information about ${release.title}`}
+            className="absolute inset-0 z-10"
+          />
+        )}
       </div>
 
       <div className="mt-4 flex items-baseline justify-between gap-4">
@@ -33,7 +40,7 @@ export function ReleaseCard({ release, priority = false }: { release: Release; p
       <div className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-xs text-muted-foreground">
         {release.links.official && (
           <Link to={release.links.official} className="hover:text-violet">
-            Official
+            Info
           </Link>
         )}
         {release.links.spotify && (
